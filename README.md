@@ -1,9 +1,5 @@
 
-![BOOKING](https://www.booking.com/index.en-gb.html?label=gen173nr-1FCAEoggI46AdIM1gEaEaIAQGYAQm4AQfIAQzYAQHoAQH4AQuIAgGoAgO4AvjNjZwGwAIB0gIkNDNmZGJhMDktN2VlMC00ZmI5LTlkMDYtZTQ3MjU1YmE3MTEx2AIG4AIB&sid=1c4296ef4ceb04c0a26ec35441d26f68&click_from_logo=1)
-
-
-
-
+![DEUS](src/test/resources/Screen Shot 2022-11-27 at 17.14.5800.png)
 
 
 
@@ -34,6 +30,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+Project owner [https://www.deus.ai/](https://www.deus.ai/)
 
 Get a project url at [https://www.booking.com/](https://www.booking.com/)
 
