@@ -14,7 +14,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -26,10 +25,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#acknowledgments">Running Scripts</a></li>
   </ol>
 </details>
 
@@ -72,11 +69,9 @@ I heve created  maven dependencies from this web side and added to pom.xml file
   ```
 
 ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/mustafaduyarer/Deus_Project.git
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,6 +97,7 @@ _For more examples, please refer to the [Documentation](https://cucumber.io/)_
    - [ ]  java
 - [ ] Pages
   - [ ]  Page1
+- [ ] runners
 - [ ] Step Definitions
     - [ ]  StepDef1
 - [ ] Feateres
@@ -118,7 +114,7 @@ _For more examples, please refer to the [Documentation](https://cucumber.io/)_
 
 Mustafa Duyarer - [@linkedn](www.linkedin.com/in/mustafa-duyarer) - mustafaduyarer@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/mustafaduyarer/Deus_Project.git](https://github.com/mustafaduyarer/Deus_Project.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
