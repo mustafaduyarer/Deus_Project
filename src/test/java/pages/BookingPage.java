@@ -15,8 +15,13 @@ public class BookingPage extends BasePage {
     @FindBy(xpath = "//input[@name='ss']")
     public WebElement stay_input;
 
-    @FindBy(xpath = "//*[text()='Check-in Date']")
+//    @FindBy(xpath = "//*[text()='Check-in Date']")
+//    public WebElement check;
+
+    @FindBy(xpath = "//*[contains(text(),'Check-in Date')]")
     public WebElement check;
+
+
 //    @FindBy(xpath = "//*[text()='Check-in'] or [text()='Check-in Date']")
 //    public WebElement check;
 

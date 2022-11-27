@@ -11,5 +11,3 @@ Feature: Booking a ticket
     Then user Verify the Check-in date on the left is 1 "Thursday", "December" 1, 2022 of next month
     Then user Verify the Check-out date on the left is 7 "Wednesday", "December" 7, 2022 of next month
     And user should Print the names of the properties found on this first page
-
-
