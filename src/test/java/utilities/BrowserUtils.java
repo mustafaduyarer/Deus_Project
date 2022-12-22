@@ -391,5 +391,12 @@ public class BrowserUtils {
         return dtf.format(past);
     }
 
+    public static void masterClick(WebElement element){
+        BrowserUtils.scrollToElement(element);
+        BrowserUtils.waitForVisibility(element,2);
+        BrowserUtils.waitForClickablility(element,2);
 
+        element.click();
+
+    }
 }

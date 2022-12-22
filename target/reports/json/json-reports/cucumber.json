@@ -1,0 +1,201 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-22T14:07:00.522Z",
+        "line": 4,
+        "name": "As a user I can book on booking.com",
+        "description": "",
+        "id": "booking-a-ticket;as-a-user-i-can-book-on-booking.com",
+        "after": [
+          {
+            "result": {
+              "duration": 2784000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49142077000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be able to go url",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userShouldBeAbleToGoUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3012418000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to click place input",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userShouldBeAbleToClickPlaceInput()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18768284000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to choose Check-in date",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userShouldBeAbleToChooseCheckInDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2378365000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should be able to choose Check-out date",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userShouldBeAbleToChooseCheckOutDate()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19308255000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to click search button",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userShouldBeAbleToClickSearchButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 474193000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user can see total number of properties",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userCanSeeTotalNumberOfProperties()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 613894000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Verify the Check-in date on the left is 25 \"Sunday\", \"December\" 25, 2022 of next month",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Sunday\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 58
+                },
+                {
+                  "val": "25",
+                  "offset": 69
+                },
+                {
+                  "val": "2022",
+                  "offset": 73
+                }
+              ],
+              "location": "stepdefinitions.Booking_Step_Def.userVerifyTheCheckInDateOnTheLeftIsOfNextMonth(int,java.lang.String,java.lang.String,int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111388000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Verify the Check-out date on the left is 28 \"Wednesday\", \"December\" 28, 2022 of next month",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Wednesday\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 62
+                },
+                {
+                  "val": "28",
+                  "offset": 73
+                },
+                {
+                  "val": "2022",
+                  "offset": 77
+                }
+              ],
+              "location": "stepdefinitions.Booking_Step_Def.userVerifyTheCheckOutDateOnTheLeftIsOfNextMonth(int,java.lang.String,java.lang.String,int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5868588000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should Print the names of the properties found on this first page",
+            "match": {
+              "location": "stepdefinitions.Booking_Step_Def.userShouldPrintTheNamesOfThePropertiesFoundOnThisFirstPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Booking a ticket",
+    "description": "",
+    "id": "booking-a-ticket",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/booking.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

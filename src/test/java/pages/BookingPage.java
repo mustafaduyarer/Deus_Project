@@ -15,23 +15,22 @@ public class BookingPage extends BasePage {
     @FindBy(xpath = "//input[@name='ss']")
     public WebElement stay_input;
 
-//    @FindBy(xpath = "//*[text()='Check-in Date']")
+//    @FindBy(xpath = "//*[text()='Check-in']")
 //    public WebElement check;
 
-    @FindBy(xpath = "//*[contains(text(),'Check-in Date')]")
-    public WebElement check;
+//    @FindBy(xpath = "(//*[contains(text(),'Check-in')])[2]")
+//    public WebElement checkin;
 
+    @FindBy(css = ".sb-date-field__controls.sb-date-field__controls__ie-fix")
+    public WebElement checkin;
 
-//    @FindBy(xpath = "//*[text()='Check-in'] or [text()='Check-in Date']")
-//    public WebElement check;
-
-    @FindBy(xpath = "//span[@data-date='2022-12-01']")
+    @FindBy(xpath = "//td[@data-date='2022-12-25']")
     public WebElement check_in_date;
 
-    @FindBy(xpath = "//span[@data-date='2022-12-07']")
-    public WebElement getCheck_out_date;
+    @FindBy(xpath = "//td[@data-date='2022-12-28']")
+    public WebElement check_out_date;
 
-    @FindBy(xpath = "//span[text()='Search']")
+    @FindBy(css = ".js-sb-submit-text")
     public WebElement search_button;
 
     @FindBy(xpath = "//h1[@class='e1f827110f d3a14d00da']")
